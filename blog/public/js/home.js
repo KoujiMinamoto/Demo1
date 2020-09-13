@@ -22,6 +22,12 @@ function clickHeader(headerName) {
     reset();
     switch (headerName) {
         //product
+        case 0:
+            let home = document.getElementById("home_id");
+            product.style.backgroundColor = "rgb(103, 151, 165)";
+            product.style.color = "white";
+            product.style.display = "block";
+            break;
         case 1:
             let product = document.getElementById("product_id");
             product.style.backgroundColor = "rgb(103, 151, 165)";
